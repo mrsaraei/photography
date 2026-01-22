@@ -22,8 +22,8 @@ footer:
   # twitter: "https://www.twitter.com/rampatra_"
   # instagram: "https://www.instagram.com/ram_patra"
   # dribbble: "https://dribbble.com/rampatra"
-  # linkedin: "https://www.linkedin.com/in/mrsaraei/"
-  # github: "https://github.com/mrsaraei"
+   linkedin: "https://www.linkedin.com/in/mrsaraei/"
+   github: "https://github.com/mrsaraei"
 
 # Configure which exif data to display
 # Tag is the actual exif tag, icon is a fontawesome icon. Use JSON notation without line breaks
