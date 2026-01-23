@@ -7,10 +7,18 @@ layout: default
 
     <!-- Header -->
     <header id="header">
-        <h1><a href="index.html"><strong>{{ site.header.title }}</strong> {{ site.header.subtitle }}</a></h1>
+        <h1>
+            <a href="index.html">
+                <strong>{{ site.header.title }}</strong> {{ site.header.subtitle }}
+            </a>
+        </h1>
         <nav>
             <ul>
-                <li><a href="#footer">About&nbsp;&nbsp;<i class="fa fa-info-circle text-fg"></i></a></li>
+                <li>
+                    <a href="#footer">
+                        About&nbsp;&nbsp;<i class="fa fa-info-circle text-fg"></i>
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -21,11 +29,12 @@ layout: default
             {% if image.path contains 'fulls' %}
                 <article class="thumb">
                     <a href="{{ site.baseurl }}{{ site.image_fulls_loc }}/{{ image.name }}" class="image">
-                        <img src="{{ site.baseurl }}{{ site.image_thumbs_loc }}/{{ image.name }}" alt=""
-                             data-name="{{ image.name }}" />
+                        <img
+                            src="{{ site.baseurl }}{{ site.image_thumbs_loc }}/{{ image.name }}"
+                            alt=""
+                            data-name="{{ image.name }}"
+                        />
                     </a>
-                    <!--<h2></h2>
-                    <p></p>-->
                 </article>
             {% endif %}
         {% endfor %}
@@ -33,32 +42,40 @@ layout: default
 
     <!-- Footer -->
     <footer id="footer" class="panel">
-        <div class="inner split">
+        <div class="inner split footer-profile">
 
-            <!-- Left Column -->
-            <div>
+            <!-- Profile Image -->
+            <div class="profile-image">
+                <img
+                    src="{{ site.baseurl }}/images/profile.jpg"
+                    alt="Reza"
+                />
+            </div>
+
+            <!-- Profile Info -->
+            <div class="profile-info">
                 <section>
                     <h2>{{ site.footer.name }}</h2>
                     <p>{{ site.footer.bio }}</p>
-                    <p>{{ site.footer.github }}</p>
                 </section>
 
                 <section>
-                    <h3>Follow me on ...</h3>
+                    <h3>Follow me on …</h3>
                     <ul class="icons">
                         {% if site.social_urls.github %}
-                            <li>
-                                <a href="{{ site.social_urls.github }}" class="icon brands fa-github">
-                                    <span class="label">GitHub</span>
-                                </a>
-                            </li>
+                        <li>
+                            <a href="{{ site.social_urls.github }}" class="icon brands fa-github">
+                                <span class="label">GitHub</span>
+                            </a>
+                        </li>
                         {% endif %}
+
                         {% if site.social_urls.linkedin %}
-                            <li>
-                                <a href="{{ site.social_urls.linkedin }}" class="icon brands fa-linkedin">
-                                    <span class="label">LinkedIn</span>
-                                </a>
-                            </li>
+                        <li>
+                            <a href="{{ site.social_urls.linkedin }}" class="icon brands fa-linkedin">
+                                <span class="label">LinkedIn</span>
+                            </a>
+                        </li>
                         {% endif %}
                     </ul>
                 </section>
@@ -68,7 +85,7 @@ layout: default
                 </p>
             </div>
 
-            <!-- Right Column -->
         </div>
     </footer>
+
 </div>
