@@ -1,7 +1,7 @@
 # Base configs
 baseurl: "/photography"
-image_fulls_loc: "/images/fulls"
-image_thumbs_loc: "/images/thumbs"
+image_fulls_loc: "images/fulls"
+image_thumbs_loc: "images/thumbs"
 
 # UI configs
 title: "Photography by Reza"
