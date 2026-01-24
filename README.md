@@ -1,4 +1,4 @@
-**A Three-second Moments Photography**
+**A 3-Second Moments Photography**
 
 ![Intro image](images/intro/intro.png)
 
