@@ -6,17 +6,15 @@ image_thumbs_loc: "images/thumbs"
 #google_analytics: "UA-46465113-2"
 
 # UI configs
-title: "Photography by Ram Patra"
-subtitle: "See the world through my eyes!"
-author: "Ram Patra"
+title: "Photography by Reza"
+subtitle: "Linger a little in a Three-second Moment!"
+author: "Mohammadreza"
 header:
- title: "Photography"
- subtitle: "by Ram Patra"
+ title: "Linger a little in"
+ subtitle: "A 3-second Moment!"
 footer:
- name: "Hey there, my name is Ram"
- bio: "I am a software developer and a tech aficionado. Love making teeny tiny apps solving tiny problems in life and now learning photography."
- github: "Want a website like this for yourself for free? Just <a href=\"https://github.com/rampatra/photography\">fork this repo on github</a> ;)"
-web_design: "AJ"
+ name: "Hey, I'm Reza!"
+ bio: "I work with photography as an act of three-second attention, drawn to fleeting moments of transition—shifting light, moving bodies, spaces suspended between use and meaning. My practice lives in the tension between observation and interpretation, inviting the viewer to slow down and notice what usually slips past. Step into my world and linger, where three-second moments unfold into visual stories—intimate, deliberate, and quietly alive through the lens."
 
 social_urls:
   twitter: "https://www.twitter.com/rampatra_"
